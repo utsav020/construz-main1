@@ -43,7 +43,7 @@ const FooterThree = () => {
                 </li>
                 <li>
                   <a
-                    href="/shop"
+                    href="/gfrp-rebar"
                     className="hover:underline"
                   >
                     What We Do

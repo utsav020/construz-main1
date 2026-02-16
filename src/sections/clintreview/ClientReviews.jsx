@@ -50,7 +50,7 @@ export default function ClientReviews() {
   }, []);
 
   return (
-    <section className="w-full py-10 bg-gray-50 mb-12.5 overflow-hidden">
+    <section className="w-full mt-50 py-10 bg-gray-50 mb-12.5 overflow-hidden">
       <div className="max-w-350 mx-auto px-6">
         {/* Heading */}
         <div className="text-center mb-14">

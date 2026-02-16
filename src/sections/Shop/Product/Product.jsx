@@ -5,6 +5,7 @@ import { Mail, Phone, MapPin } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Link from "next/link";
 
 const stats = [
   { value: 5000, suffix: "+", label: "Projects Completed" },
@@ -127,9 +128,12 @@ export default function Product() {
             corrosion-free and future-ready construction solutions.
           </p>
 
-          <button className="mt-8 bg-[#347A64] text-white font-semibold px-8 py-3 rounded-md hover:opacity-90 transition">
-            Download Brochure
-          </button>
+          <Link
+            className="w-45 h-12.5 bg-[#347A64] mt-6 rounded flex items-center justify-center text-white font-semibold hover:bg-[#2f6b58] transition"
+            href="/contact?subject=Download%20Brochure"
+          >
+            <button>Download Brochure</button>
+          </Link>
         </div>
 
         <div className="max-w-100 h-80 mt-12.5 md:mt-0 rounded-xl">
