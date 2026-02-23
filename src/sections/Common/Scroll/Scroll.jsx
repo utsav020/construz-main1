@@ -67,16 +67,9 @@
 
 // export default ScrollTopButton;
 
+"use client";
 
-
-
-
-
-
-
-'use client';
-
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 
 export default function ScrollTopButton() {
   const [progress, setProgress] = useState(0);
@@ -102,11 +95,11 @@ export default function ScrollTopButton() {
       });
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     handleScroll();
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
       if (rafId) cancelAnimationFrame(rafId);
     };
   }, []);
@@ -117,26 +110,22 @@ export default function ScrollTopButton() {
 
   return (
     <button
-      onClick={() =>
-        window.scrollTo({ top: 0, behavior: 'smooth' })
-      }
+      onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
       aria-label="Scroll to top"
       className={`
-        fixed bottom-6 right-6 z-[10000]
+        fixed bottom-6 right-6 z-10000
         h-14 w-14 rounded-full border-2 border-[#347A63]
         flex items-center justify-center
         transition-all duration-300 ease-out
-        ${show
-          ? 'opacity-100 translate-y-0'
-          : 'opacity-0 translate-y-6 pointer-events-none'}
+        ${
+          show
+            ? "opacity-100 translate-y-0"
+            : "opacity-0 translate-y-6 pointer-events-none"
+        }
       `}
     >
       {/* Circular Progress */}
-      <svg
-        width="52"
-        height="52"
-        className="absolute"
-      >
+      <svg width="52" height="52" className="absolute">
         <circle
           cx="26"
           cy="26"
@@ -160,11 +149,7 @@ export default function ScrollTopButton() {
         strokeWidth="2"
         viewBox="0 0 24 24"
       >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M5 15l7-7 7 7"
-        />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M5 15l7-7 7 7" />
       </svg>
     </button>
   );

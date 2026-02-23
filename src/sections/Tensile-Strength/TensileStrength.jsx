@@ -41,7 +41,7 @@ export default function TensileStrength() {
               Table of Substitution
             </div>
             <p className="text-[#347A64] max-w-2xl mx-auto text-md sm:text-md md:text-base">
-              Equivalent tensile strength comparison between Metal Rebar and FRP
+              Equivalent tensile strength comparison between Metal Rebar and GFRP
               Rebar
             </p>
           </div>
@@ -104,7 +104,7 @@ export default function TensileStrength() {
               <div>
                 <div className="bg-[#224F3E] p-3 mb-2">
                   <h5 className="text-center text-white font-semibold mb-3 tracking-wide text-sm md:text-base">
-                    FIBERGLASS REBAR (FRP)
+                    FIBERGLASS REBAR (GFRP)
                   </h5>
 
                   <div className="max-w-100 uppercase text-white mb-2 mx-auto flex justify-between text-xs md:text-[16px]">

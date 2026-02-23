@@ -15,7 +15,7 @@ const Portfolio = () => {
             Mechanical Property Comparison
             <br />
             <span className="text-[#347A64] text-[25px] sm:text-2xl md:text-3xl lg:text-4xl">
-              Brownbar vs Metal Rebars
+              GFRP vs Metal Rebars
             </span>
           </div>
 

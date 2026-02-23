@@ -38,7 +38,7 @@ const ProductSpecificationPage = () => {
             Table of Substitution
           </div>
           <p className="text-[#347A64] max-w-2xl mx-auto text-xs sm:text-sm md:text-base">
-            Equivalent tensile strength comparison between Metal Rebar and FRP
+            Equivalent tensile strength comparison between Metal Rebar and GFRP
             Rebar
           </p>
         </div>
@@ -100,7 +100,7 @@ const ProductSpecificationPage = () => {
             <div>
               <div className="bg-[#224F3E] p-3 mb-2">
                 <h4 className="text-center text-white font-semibold mb-3 tracking-wide text-sm md:text-base">
-                  FIBERGLASS REBAR (FRP)
+                  FIBERGLASS REBAR (GFRP)
                 </h4>
 
                 <div className="max-w-[400px] uppercase text-white mb-2 mx-auto flex justify-between text-xs md:text-[16px]">

@@ -552,7 +552,7 @@ export default function Product() {
               <div>
                 <div className="bg-[#224F3E] p-3 mb-2">
                   <h5 className="text-center text-white font-semibold mb-3 tracking-wide text-sm md:text-base">
-                    FIBERGLASS REBAR (FRP)
+                    FIBERGLASS REBAR (GFRP)
                   </h5>
 
                   <div className="max-w-100 uppercase text-white mb-2 mx-auto flex justify-between text-xs md:text-[16px]">
