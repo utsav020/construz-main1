@@ -1,7 +1,25 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
+  "/Comparison-Steel/page": "app/Comparison-Steel/page.js",
+  "/achievement/page": "app/achievement/page.js",
+  "/about/page": "app/about/page.js",
+  "/Tensile-Strength/page": "app/Tensile-Strength/page.js",
+  "/advantages/Durable/page": "app/advantages/Durable/page.js",
+  "/advantages/cost/page": "app/advantages/cost/page.js",
+  "/advantages/corrosion/page": "app/advantages/corrosion/page.js",
+  "/advantages/lighter/page": "app/advantages/lighter/page.js",
+  "/advantages/strength/page": "app/advantages/strength/page.js",
+  "/advantages/non-Conductive/page": "app/advantages/non-Conductive/page.js",
+  "/certificates/page": "app/certificates/page.js",
+  "/application/page": "app/application/page.js",
   "/construction/page": "app/construction/page.js",
+  "/faq/page": "app/faq/page.js",
+  "/contact/page": "app/contact/page.js",
   "/gfrp-mesh/page": "app/gfrp-mesh/page.js",
+  "/gfrp-rebar/page": "app/gfrp-rebar/page.js",
+  "/packaging-details/page": "app/packaging-details/page.js",
   "/page": "app/page.js",
-  "/pages/innerpage/project/page": "app/pages/innerpage/project/page.js"
+  "/pages/innerpage/project/page": "app/pages/innerpage/project/page.js",
+  "/pages/innerpage/project-details/page": "app/pages/innerpage/project-details/page.js",
+  "/pages/innerpage/shop-details/page": "app/pages/innerpage/shop-details/page.js"
 }
