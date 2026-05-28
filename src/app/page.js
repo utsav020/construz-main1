@@ -9,15 +9,12 @@ import "~/public/main-assets/css/slick.min.css";
 import "~/public/main-assets/css/style.css";
 import "~/public/main-assets/css/react-adjustment.css";
 import About from "~/sections/Home-2/About";
-import Counter from "~/sections/Home-2/Counter";
 import Hero from "~/sections/Home-2/Hero";
 import Process from "~/sections/Home-2/Process";
 import Service from "~/sections/Home-2/Service";
-import Video from "~/sections/Home-2/Video";
 import FooterThree from "~/sections/Common/Footer/FooterThree";
 import Scroll from "~/sections/Common/Scroll";
 import HeaderFour from "~/sections/Common/Header/HeaderFour";
-import ClientReviews from "~/sections/clintreview";
 import Contact from "~/sections/Contact";
 
 export default function HomePage() {
@@ -28,9 +25,6 @@ export default function HomePage() {
       <About />
       <Service />
       <Process />
-      <Video />
-      <Counter />
-      <ClientReviews />
       <Contact />
       <FooterThree />
       <Scroll />

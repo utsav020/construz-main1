@@ -3,13 +3,11 @@ import Scroll from "~/sections/Common/Scroll";
 import HeaderFour from "~/sections/Common/Header/HeaderFour";
 import FooterThree from "~/sections/Common/Footer/FooterThree";
 import Contact from "~/sections/Contact";
-import ClientReviews from "~/sections/clintreview";
 export default function ShopPage() {
     return (
         <div>
             <HeaderFour />
             <Product />
-            <ClientReviews />
             <Contact />
             <FooterThree />
             <Scroll />

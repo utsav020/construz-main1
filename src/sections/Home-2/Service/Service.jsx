@@ -16,13 +16,13 @@ const Service = () => {
   }, []);
 
   return (
-    <section className="w-full max-w-350 lg:mt-12.5 xl:mt-0 sm:mt-[30px] mt-[15px] mx-auto py-20">
+    <section className="w-full max-w-350 lg:mt-12.5 xl:mt-0 sm:mt-[30px] mt-[15px] mx-auto pt-20">
       <div className="max-w-350 mx-auto px-4 md:px-8 lg:px-10">
         {/* ================= HEADER ================= */}
         <div className="text-center mb-16">
           
           <div className="text-3xl md:text-[45px] font-bold text-[#347A64]">
-            FIBERON GFRP Rebars
+            FIBERON GFRP REBARS
           </div>
           <p className="text-xl text-[#347A64] font-semibold tracking-wide uppercase mb-2">
             Available in Various Sizes
@@ -75,76 +75,6 @@ const Service = () => {
             </div>
           </div>
         </div>
-
-        {/* ================= SERVICES GRID ================= */}
-        {/* <div
-          data-aos="fade-left"
-          className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8"
-        >
-          <div className="bg-white rounded-2xl border-t-4 border-[#347A64] shadow-md p-6 hover:shadow-xl transition">
-            <span className="text-4xl font-bold text-[#347A64]">01</span>
-            <h4 className="mt-4 text-xl font-semibold text-gray-900">
-              General Construction
-            </h4>
-            <p className="mt-3 text-gray-600 text-sm">
-              There are many passages of lorem ipsum available.
-            </p>
-            <Link
-              href="/pages/innerpage/service-details"
-              className="inline-flex items-center gap-2 mt-5 text-[#347A64] font-semibold hover:underline"
-            >
-              Read More →
-            </Link>
-          </div>
-
-          <div className="bg-white rounded-2xl border-t-4 border-[#347A64] shadow-md p-6 hover:shadow-xl transition">
-            <span className="text-4xl font-bold text-[#347A64]">02</span>
-            <h4 className="mt-4 text-xl font-semibold text-gray-900">
-              Renovation & Remodeling
-            </h4>
-            <p className="mt-3 text-gray-600 text-sm">
-              There are many passages of lorem ipsum available.
-            </p>
-            <Link
-              href="/pages/innerpage/service-details"
-              className="inline-flex items-center gap-2 mt-5 text-[#347A64] font-semibold hover:underline"
-            >
-              Read More →
-            </Link>
-          </div>
-
-          <div className="bg-white rounded-2xl border-t-4 border-[#347A64] shadow-md p-6 hover:shadow-xl transition">
-            <span className="text-4xl font-bold text-[#347A64]">03</span>
-            <h4 className="mt-4 text-xl font-semibold text-gray-900">
-              Commercial Construction
-            </h4>
-            <p className="mt-3 text-gray-600 text-sm">
-              There are many passages of lorem ipsum available.
-            </p>
-            <Link
-              href="/pages/innerpage/service-details"
-              className="inline-flex items-center gap-2 mt-5 text-[#347A64] font-semibold hover:underline"
-            >
-              Read More →
-            </Link>
-          </div>
-
-          <div className="bg-white rounded-2xl border-t-4 border-[#347A64] shadow-md p-6 hover:shadow-xl transition">
-            <span className="text-4xl font-bold text-[#347A64]">04</span>
-            <h4 className="mt-4 text-xl font-semibold text-gray-900">
-              Virtual Design & Building
-            </h4>
-            <p className="mt-3 text-gray-600 text-sm">
-              There are many passages of lorem ipsum available.
-            </p>
-            <Link
-              href="/pages/innerpage/service-details"
-              className="inline-flex items-center gap-2 mt-5 text-[#347A64] font-semibold hover:underline"
-            >
-              Read More →
-            </Link>
-          </div>
-        </div> */}
 
         {/* ================= CTA SECTION ================= */}
         <div className="mt-20 bg-[#347A64] rounded-2xl p-10 flex flex-col md:flex-row items-center justify-between text-white">

@@ -149,7 +149,7 @@ const Process = () => {
         </div>
 
         {/* ================= APPLICATION GRID ================= */}
-        <section className="py-16 xl:py-34 max-w-350 mx-auto">
+        <section className="pt-16 xl:pt-34 max-w-350 mx-auto">
           {/* Section Title */}
           <div className="text-center text-2xl font-bold text-[#347A64] mb-6 md:mb-16">
             FIBERON in Real-World Projects

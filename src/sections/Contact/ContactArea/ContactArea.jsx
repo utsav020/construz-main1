@@ -59,7 +59,7 @@ export default function ContactPage() {
               </div>
               <p className="text-gray-600 w-100">
                 Behind Hotel Fern, 8 /A National Highway, Kandla Road,
-                Mahendrnagar, Morbi - 363641.
+                Mahendrnagar, Morbi - 363641, Gujarat, India.
               </p>
             </div>
 

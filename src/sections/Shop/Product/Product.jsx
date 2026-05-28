@@ -116,7 +116,7 @@ export default function Product() {
         <div className="sm:w-full w-75">
           <div className="w-full">
             <div className="text-3xl md:text-5xl xl:text-[80px] font-bold leading-tight">
-              <span className="text-[#347A64]">GFRP</span> Rebar
+              <span className="text-[#347A64]">GFRP REBAR </span> 
             </div>
             <span className="block text-2xl xl:text-[50px] font-bold text-black">
               Strength You can trust.
@@ -191,34 +191,6 @@ export default function Product() {
           </div>
         </div>
       </div>
-
-      {/* ================= STATS SECTION ================= */}
-      <section
-        data-aos="fade-up"
-        ref={sectionRef}
-        className="bg-[#347A64] mt-40 max-w-350 mx-auto py-20 text-white"
-      >
-        <div className="max-w-325 mx-auto px-6 grid grid-cols-2 lg:grid-cols-5 gap-10 items-center text-center">
-          {stats.map((item, i) => (
-            <div key={i}>
-              <div className="text-4xl font-bold">
-                {counts[i]}
-                {item.suffix}
-              </div>
-              <p className="mt-2 text-sm opacity-90">{item.label}</p>
-            </div>
-          ))}
-
-          {/* Image */}
-          <div className="w-87.5 ml-auto h-55">
-            <img
-              src="/main-assets/img/product/Man-Bar.png"
-              alt="steel"
-              className="md:h-55.75 h-57.5 mx-auto mt-2 md:mt-3 object-contain"
-            />
-          </div>
-        </div>
-      </section>
 
       {/* ================= GFRP INFO ================= */}
       <section
@@ -360,7 +332,7 @@ export default function Product() {
         <div className="relative">
           <div className="md:text-4xl text-lg font-semibold text-white max-w-175 w-full mx-auto h-15 bg-[#347A64] mb-16">
             <div className="flex items-center justify-center h-full">
-              Attributes of REBAR-X GFRP Rebars
+              Attributes of FIBERON GFRP Rebars
             </div>
           </div>
 
@@ -397,192 +369,6 @@ export default function Product() {
           </div>
         </div>
       </section>
-
-      {/* ================= APPLICATION GRID ================= */}
-      {/* <section className="py-24 max-w-350 mx-auto px-6">
-        {/* Section Title *
-        <div className="text-center text-3xl font-bold text-[#347A64] mb-16">
-          GFRP Rebar Applications
-        </div>
-
-        {/* Application Grid *
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10">
-          {[
-            {
-              title: "Parking Areas",
-              img: "/main-assets/img/product/parking-area.jpg",
-            },
-            {
-              title: "Concrete Slabs",
-              img: "/main-assets/img/product/concrete-slab.jpg",
-            },
-            {
-              title: "Industrial Roofing",
-              img: "/main-assets/img/product/industrial-roffting.avif",
-            },
-            {
-              title: "RCC Roads",
-              img: "/main-assets/img/product/rcc-roads.avif",
-            },
-            {
-              title: "Drainage Systems",
-              img: "/main-assets/img/product/drainage-system.jpg",
-            },
-            {
-              title: "Pavements",
-              img: "/main-assets/img/product/pavements.avif",
-            },
-            {
-              title: "Friction Slabs",
-              img: "/main-assets/img/product/pavements.avif",
-            },
-            {
-              title: "Foundations",
-              img: "/main-assets/img/product/foundations.jpg",
-            },
-            {
-              title: "Precaste Elements",
-              img: "/main-assets/img/product/precaste elements.avif",
-            },
-            {
-              title: "Crash Barriers",
-              img: "/main-assets/img/product/crash-barriers.jpg",
-            },
-            {
-              title: "Chemical Plants",
-              img: "/main-assets/img/product/chemical plants.avif",
-            },
-            {
-              title: "Walls",
-              img: "/main-assets/img/product/walls.avif",
-            },
-          ].map((item, i) => (
-            <div
-              key={i}
-              data-aos="fade-up"
-              data-aos-delay={i * 80}
-              className="group border rounded-2xl overflow-hidden text-center hover:shadow-lg transition duration-300"
-            >
-              {/* Image *
-              <div className="w-full h-51 overflow-hidden">
-                <img
-                  src={item.img}
-                  alt={item.title}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-              </div>
-
-              {/* Title *
-              <div className="p-2 border-b-3 border-[#347A64] rounded-2xl">
-                <div className="font-semibold text-md text-[#347A64] ">
-                  {item.title}
-                </div>
-              </div>
-            </div>
-          ))} 
-        </div>
-      </section> */}
-
-      {/* ================= ATTRIBUTES ================= */}
-      {/* <section data-aos="fade-up">
-        <div className="max-w-6xl mx-auto px-3 sm:px-4">
-          <div className="text-center mb-10 md:mb-14">
-            <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#347A64] mb-2">
-              Table of Substitution
-            </div>
-            <p className="text-[#347A64] max-w-2xl mx-auto text-md sm:text-md md:text-base">
-              Equivalent tensile strength comparison between Metal Rebar and FRP
-              Rebar
-            </p>
-          </div>
-
-          <div className="p-0 sm:p-5 md:p-8 overflow-x-auto">
-            <div className="min-w-70 md:min-w-full grid grid-cols-1 md:grid-cols-[1fr_80px_1fr] gap-6">
-              <div>
-                <div className="bg-[#224F3E] p-3 mb-2">
-                  <h4 className="text-center text-white font-semibold mb-3 tracking-wide text-sm md:text-base">
-                    METAL REBAR
-                  </h4>
-
-                  <div className="max-w-100 uppercase text-white mb-2 mx-auto flex justify-between text-xs md:text-[16px]">
-                    <div className="border w-[48%] py-2 text-center">
-                      Weight <br /> (PER 12m BAR)
-                    </div>
-                    <div className="border w-[48%] flex items-center justify-center py-2">
-                      Diameter
-                    </div>
-                  </div>
-                </div>
-
-                <div className="space-y-2 mt-4">
-                  {metalRebar.map((row, i) => (
-                    <div
-                      key={i}
-                      className={`grid grid-cols-2 text-center py-2 md:py-3
-                    ${i % 2 === 0 ? "bg-[#F3F3F3]" : "bg-[#DADADA]"}`}
-                    >
-                      <div className="font-medium text-sm md:text-lg text-gray-800">
-                        {row[0]}
-                      </div>
-                      <div className="text-gray-700 text-sm md:text-lg">
-                        {row[1]}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              <div className="hidden md:flex flex-col items-center">
-                <div className="h-12" />
-                <div className="space-y-2 w-full mt-28.5">
-                  {metalRebar.map((_, i) => (
-                    <div
-                      key={i}
-                      className="h-9.5 mt-3.5 flex items-center justify-center bg-[#347A64] text-white font-bold rounded-sm"
-                    >
-                      =
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              <div>
-                <div className="bg-[#224F3E] p-3 mb-2">
-                  <h5 className="text-center text-white font-semibold mb-3 tracking-wide text-sm md:text-base">
-                    FIBERGLASS REBAR (FRP)
-                  </h5>
-
-                  <div className="max-w-100 uppercase text-white mb-2 mx-auto flex justify-between text-xs md:text-[16px]">
-                    <div className="border w-[48%] py-2 text-center">
-                      Weight <br /> (PER 12m BAR)
-                    </div>
-                    <div className="border w-[48%] flex items-center justify-center py-2">
-                      Diameter
-                    </div>
-                  </div>
-                </div>
-
-                <div className="space-y-2 mt-4">
-                  {frpRebar.map((row, i) => (
-                    <div
-                      key={i}
-                      className={`grid grid-cols-2 text-center py-2 md:py-3
-                    ${i % 2 === 0 ? "bg-[#F3F3F3]" : "bg-[#DADADA]"}`}
-                    >
-                      <div className="font-medium text-sm md:text-lg text-gray-800">
-                        {row[0]}
-                      </div>
-                      <div className="text-gray-700 text-sm md:text-lg">
-                        {row[1]}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
 
       <div data-aos="fade-up" className="mt-5">
         <Portfolio />

@@ -26,7 +26,7 @@ const Hero = () => {
             {/* Left Content */}
             <div className="mx-auto max-w-full w-175 lg:w-full">
               <div className="md:text-[50px] xl:text-[83px] text-[33px] leading-10 md:leading-12 xl:leading-20 w-full font-bold">
-                <span className="text-[#347A64]">GFRP </span>REBER <br />
+                <span className="text-[#347A64]">GFRP REBEAR </span> <br />
                 MANUFACTURER
               </div>
 

@@ -16,15 +16,15 @@ const About = () => {
   }, []);
   return (
     <section className="relative overflow-hidden max-w-350 mx-auto py-5 bg-white">
-      <div className="relative h-550.5 md:h-450 lg:h-412.5 xl:h-250 py-0 max-w-350 mx-auto px-6 xl:px-0">
+      <div className="relative h-auto py-0 max-w-350 mx-auto px-6 xl:px-0">
         <div data-aos="fade-up" className="grid grid-cols-1 xl:grid-cols-2 max-w-350 items-center">
           {/* Image Section */}
           <div
-            className="relative max-w-155 md:flex justify-between"
+            className="relative max-w-155 mx-auto md:flex justify-between"
           >
             <div className="max-h-200 mx-auto">
               <img
-                src="/main-assets/img/normal/about_2-1.png"
+                src="/main-assets/img/product/Man-Bar.png"
                 alt="About"
                 className="w-full max-w-137.5 rounded-xl shadow-lg"
               />
@@ -32,26 +32,26 @@ const About = () => {
 
             {/* Experience Counter */}
             <div className="md:absolute mt-5 md:ml-40 md:-bottom-20 w-full md:w-62.5 xl:w-70 h-52.5 right-0 bg-[#347A64] rounded-xl px-0 py-5 shadow-md">
-              <div className="flex justify-center items-center h-full gap-2">
+              <div className="flex justify-center items-center h-full gap-3 xl:gap-8">
                 <div className="w-25 h-25">
                   <img
                     src="/main-assets/img/hero/trusted-white.webp"
                     alt="icon"
-                    className="-mt-7 md:mt-0 xl:mt-0"
+                    className="-mt-7 md:mt-0 xl:-mt-7 xl:ml-5"
                   />
                 </div>
                 <div>
                   <h3 className="text-3xl flex items-center gap-1 font-bold w-auto text-white">
-                    <CountUp start={0} end={10} duration={1} />+ <span className="text-xl">Years of</span>
+                    <CountUp start={0} end={20} duration={1} />+ <span className="text-xl">Years of</span>
                   </h3>
-                  <p className="text-sm text-white">Business Experience</p>
+                  <p className="text-lg text-white">Building Material Experience</p>
                 </div>
               </div>
             </div>
           </div>
 
           {/* Content Section */}
-          <div className="h-225 mt-12.5 md:mt-25 xl:mt-0">
+          <div className="h-auto mt-12.5 md:mt-25 xl:mt-0">
             <div className="flex justify-center md:justify-start underline leading-2 items-center gap-1.5 text-2xl font-semibold text-[#347A64] uppercase">
               About Us
             </div>

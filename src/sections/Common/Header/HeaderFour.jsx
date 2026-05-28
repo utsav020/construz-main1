@@ -35,16 +35,6 @@ export default function HeaderFour() {
 
   return (
     <>
-      {/* ================= TOP BAR ================= */}
-      {/* <div className="bg-[#347A64] text-white text-xs px-4 xl:px-0">
-        <div className="max-w-350 mx-auto flex justify-between py-2">
-          <span className="hidden md:block">
-            ALL INDIA FIRST BIS License holder for GFRP Bars
-          </span>
-          <span className="font-semibold">ISO 9001:2015 CERTIFIED</span>
-        </div>
-      </div> */}
-
       {/* ================= CONTACT BAR ================= */}
       <div className="bg-white border-b text-sm hidden md:block">
         <div className="max-w-350 mx-auto flex justify-between items-center md:px-0 px-3 py-3">
@@ -80,11 +70,11 @@ export default function HeaderFour() {
             <img
               src="/main-assets/img/hero/Fibron_Logo_Black_New.png"
               alt="logo"
-              className="h-18 xl:h-28 object-contain"
+              className="h-18 xl:h-20 object-contain"
             />
           </Link>
           {/* DESKTOP NAV */}
-          <nav className="hidden xl:flex items-center gap-8 text-[#347A64] font-medium text-lg">
+          <nav className="hidden xl:flex items-center gap-6 text-[#347A64] font-medium text-[15px]">
             <Link href="/">Home</Link>
 
             {/* COMPANY */}
@@ -101,22 +91,19 @@ export default function HeaderFour() {
                 <div className="absolute left-0 z-999 top-full bg-white shadow-xl rounded-lg">
                   <div className="w-64">
                     <Link
-                      className="block px-6 py-4 hover:bg-[#347A64]/10"
+                      className="block px-6 py-3 hover:bg-[#347A64]/10"
                       href="/about"
                     >
                       About Us
                     </Link>
                     <Link
-                      className="block px-6 py-4 hover:bg-[#347A64]/10"
-                      // href="/Certificate.pdf"
-                      // target="_blank"
-                      // rel="noopener noreferrer"
+                      className="block px-6 py-3 hover:bg-[#347A64]/10"
                       href="/certificates"
                     >
                       Certificates
                     </Link>
                     <Link
-                      className="block px-6 py-4 hover:bg-[#347A64]/10"
+                      className="block px-6 py-3 hover:bg-[#347A64]/10"
                       href="/pages/innerpage/project"
                     >
                       Projects
@@ -149,16 +136,16 @@ export default function HeaderFour() {
                   >
                     GFRP BENT REBAR
                   </Link>
-                  <Link
-                    className="block px-4 py-3 hover:bg-[#347A64]/10"
-                    href="/advantages/cost"
-                  >
-                    ADVANTAGES
-                  </Link>
                 </div>
               )}
             </div>
-            
+
+            <Link
+              href="/advantages/cost"
+            >
+              Advantages
+            </Link>
+
             <Link href="/application">Application</Link>
 
             {/* TECHNICAL SPECIFICATION */}
@@ -172,22 +159,32 @@ export default function HeaderFour() {
               </button>
               {technicalOpen && (
                 <div className="absolute z-999 top-full w-72 bg-white shadow-lg rounded-md">
-                  <Link className="block px-4 py-3 hover:bg-[#347A64]/10" href="/Comparison-Steel">
-                    Comparison Steel Bar vs GFRP
+                  <Link
+                    className="block px-4 py-3 hover:bg-[#347A64]/10"
+                    href="/Tensile-Strength"
+                  >
+                    Weight Comparison Steel Bar vs GFRP
                   </Link>
-                  <Link className="block px-4 py-3 hover:bg-[#347A64]/10" href="/Tensile-Strength">
-                    Tensile Strength Steel Bar vs GFRP
-                  </Link>
-                  <Link className="block px-4 py-3 hover:bg-[#347A64]/10" href="/packaging-details">
-                    Packaging Details
+
+                  <Link
+                    className="block px-4 py-3 hover:bg-[#347A64]/10"
+                    href="/Comparison-Steel"
+                  >
+                    Test Report of Steel Bar vs GFRP
                   </Link>
                 </div>
               )}
             </div>
 
+            <Link
+              href="/packaging-details"
+            >
+              Packaging Details
+            </Link>
+
             <Link href="/contact">Contact Us</Link>
           </nav>
-          
+
           {/* ACTIONS */}
           <div className="hidden xl:flex gap-4">
             {/* <button className="border-2 border-[#347A64] text-[#347A64] px-5 py-2 rounded-full hover:bg-[#347A64] hover:text-white transition flex gap-2">
@@ -287,8 +284,12 @@ export default function HeaderFour() {
 
               {mobileTechnical && (
                 <div className="pl-4 flex flex-col gap-2 text-sm">
-                  <Link href="/Comparison-Steel">Comparison Steel Bar vs GFRP</Link>
-                  <Link href="/Tensile-Strength">Tensile Strength Steel Bar vs GFRP</Link>
+                  <Link href="/Comparison-Steel">
+                    Comparison Steel Bar vs GFRP
+                  </Link>
+                  <Link href="/Tensile-Strength">
+                    Tensile Strength Steel Bar vs GFRP
+                  </Link>
                   <Link href="/packaging-details">Packaging Details</Link>
                 </div>
               )}

@@ -3,7 +3,7 @@ import { Globe, Mail, MapPin, Phone, PhoneCall } from "lucide-react";
 
 const FooterThree = () => {
   return (
-    <footer className="bg-white text-[#347A64]">
+    <footer className="bg-white mt-10 text-[#347A64]">
       {/* ================= MAIN FOOTER ================= */}
       <div className="max-w-[1400px] mx-auto px-[30px] py-13">
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-15">
@@ -90,7 +90,7 @@ const FooterThree = () => {
 
               <div className="">
                 Behind Hotel Fern, 8 /A National Highway, Kandla Road,
-                Mahendrnagar, Morbi - 363641.
+                Mahendrnagar, Morbi - 363641, Gujarat, India.
               </div>
             </div>
 
